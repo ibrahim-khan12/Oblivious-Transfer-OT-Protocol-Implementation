@@ -79,18 +79,7 @@ This will:
 
 ✅ Reveal and verify the winning bid at the end
 
-🏗️ Creating Your Own Auction
-You can customize:
-
-Number of bidders
-
-Auction time constraints
-
-Bidding logic
-
-Edit the parameters inside the SecureAuction class in the main script to define your custom auction settings.
-
-🧱 System Architecture
+## System Architecture
 🧩 Key Components
 SecureAuction
 Orchestrates registration, bidding, verification, and finalization.
@@ -121,7 +110,7 @@ Conclusion Phase
 
 Results are calculated, winner is revealed, and all proofs are logged
 
-🔐 Security Properties
+## Security Properties
 🕶️ Bid Privacy
 Bid values are encrypted and revealed only after the auction ends.
 
@@ -137,7 +126,7 @@ All participants can independently validate the correctness of the result.
 ⏱️ Timing Protections
 Constant-time cryptographic operations minimize side-channel risks.
 
-🧪 Development
+## Development
 ✅ Running Tests
 The project includes test scripts to validate core functionality of:
 
@@ -153,7 +142,7 @@ bash
 Copy
 Edit
 python test_suite.py
-👥 Contributors
+ ## Contributors
 This project was developed as part of an Information Security course assignment.
 
 🎓 Ibrahim Khan 
